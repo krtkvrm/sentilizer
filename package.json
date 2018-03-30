@@ -1,0 +1,27 @@
+{
+  "name": "sentilizer",
+  "version": "1.0.0",
+  "description": "Sentiments Analyzer",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkartik97/sentilizer.git"
+  },
+  "author": "Kartik Verma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vkartik97/sentilizer/issues"
+  },
+  "homepage": "https://github.com/vkartik97/sentilizer#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5"
+  }
+}
